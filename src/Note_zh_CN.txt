@@ -1,0 +1,198 @@
+#language
+#menu
+menu.file=文件(F)
+menu.edit=编辑(E)
+menu.format=格式(O)
+menu.lookup=查看(V)
+menu.help=帮助(H)
+
+#File
+action.new=新建(N)    Ctrl+N
+action.open=打开(O)    Ctrl+O
+action.save=保存(S)    Ctrl+S
+action.saveAs=另存为(A) Ctrl+Shift+S
+action.pageConfigure=页面【配置(U) Ctrl+U
+action.print=打印(P)   Ctrl+P
+action.exit=退出(E)   Ctrl+E
+
+#Edit
+action.undo=撤销(Z)    Ctrl+Z
+action.redo=回复(Y)    Ctrl+Y
+action.cut=剪切(X)    Ctrl+X
+action.copy=复制(C)    Ctrl+C
+action.paste=粘贴(V)    Ctrl+V
+action.delete=删除(D)    Ctrl+D
+action.find=查找(F)    Ctrl+F
+action.findNext=查找下一个(N)    F3
+action.replace=替换(R)    Ctrl+R
+action.goto=转到(G)    Ctrl+G
+action.all=全选(A)  Ctrl+A
+action.date=日期        F5
+
+#Format
+action.warp=换行(W)    Ctrl+W
+action.font=字体(F) Ctrl+Shift+F
+
+#Look up
+action.state=状态(I)  Ctrl+I
+
+#Help
+action.help=帮助(H)    Ctrl+H
+action.about=关于(A)   Ctrl+Shift+A
+
+#dialog
+action.close.dialog=确认
+action.findd.dialog.findbutton=查找
+action.choosercolor=颜色
+
+#icon
+icon.main=note.png
+#file
+icon.new=new.png
+icon.open=open.png
+icon.save=save.png
+icon.saveAs=saveAs.png
+icon.pageConfigure=pageConfigure.png
+icon.print=print.png
+icon.exit=exit.png
+
+#edit
+icon.undo=undo.png
+icon.redo=redo.png
+icon.cut=cut.png
+icon.copy=copy.png
+icon.paste=paste.png
+icon.delete=delete.png
+icon.find=find.png
+icon.findNext=findNext.png
+icon.replace=replace.png
+icon.goto=goto.png
+icon.all=selectAll.png
+icon.date=date.png
+
+#format
+icon.warp=warp.png
+icon.font=font.png
+
+#look up
+icon.state=state.png
+
+#help
+icon.help=help.png
+icon.about=about.png
+
+icon.main=icon.png
+#key
+#file
+key.new=control N
+key.open=control O
+key.save=control S
+key.saveAs=control shift S
+key.pageConfigure=control U
+key.print=control P
+key.exit=control E
+
+#edit
+key.undo=control Z
+key.redo=control Y
+key.cut=control X
+key.copy=control C
+key.paste=control V
+key.delete=control D
+key.find=control F
+key.findNext=F3
+key.replace=control R
+key.goto=control G
+key.all=control A
+key.date=F5
+
+#Format
+key.warp=control W
+key.font=control shift F
+
+#Look up
+key.state=control I
+
+#Help
+key.help=control H
+key.about=control shift A
+
+#Configure
+system.version = 1.0.0.0
+system.name=note book
+system.author=_author : Don
+
+#dialog
+dialog.message=消息
+dialog.warn=警告
+dialog.error=错误
+dialog.confirm=选择
+
+#file type
+type.note=txt
+
+#file type description
+desc.type.txt=文件(*.txt)
+do=.
+
+#dialog message
+mess.fileIsCreate=文件 "<fileName>" 不存在 ,您想要创建它吗 ?
+mess.fileIsOverride=文件 "<fileName>" 已经存在 ,是否覆盖该文件 ? 
+mess.fileCannotCreate=文件 "<fileName>" 不能再该目录上创建 !
+mess.readFileError=读取文件失败 !
+mess.fileTypeError=不支此类文件格式，你确定要读取吗 ? 
+mess.saveFileError= 保存文件失败 !
+mess.fileNotExist= 文件不存在 !
+mess.exit=你确定要退出 <systemName> 吗?
+mess.about=<html><b>笔记本是一个新的文本编辑软件,<br/>完全模仿微软记事本功能,<br/>如果您有什么意见和建议,请与作者联系. 谢谢您的使用<p/>----唐植超</b></html>
+mess.help.title=记事本帮助...
+mess.help.Info=软件常见问题
+mess.help.Info.detail=如果还有其他问题,请联系唐植超
+mess.isSave=该文件没有保存,你想要保存吗 ?
+mess.write.error=写入文件出错 !
+mess.file.type.wrong=不能读取改类型文件!
+mess.read.file.error=读取文件失败 !
+mess.main.title=一个新的文件
+
+
+#FindDialog
+findDialog.title = 查找
+findDialog.findLabel = 查找(F):
+findDialog.allCompare = 匹配所有文字
+findDialog.matchCase = 区分大小写
+findDialog.highlight = 突出比较内容
+findDialog.rege =正则匹配
+findDialog.forward.text=向下
+findDialog.backward.text=向上
+action.next=下一个
+action.last=上一个
+
+#main frame
+title.new.noteBook=新建文件.txt
+
+#notebookoperatebiz
+mess.file.type.cannot.read=,exe,jar,zip,rar,
+mess.file.type.iswilllost=文件格式不正确,如果一定要读取,可能导致数据丢失,你确定吗 ?
+
+fontdialog.fontname.label.text = 字体名
+fontdialog.fonttype.label.text = 字体样式
+fontdialog.fontsize.label.text = 字体大小
+fontdialog.preview.label.text = 超哥哥
+fontdialog.title=字体
+dialog.cancel.text =退出
+dailog.ok.text=确认
+fontdialog.font.type.rule=常规
+fontdialog.font.type.itailic=斜体
+fontdialog.font.type.bold=粗体
+fontdialog.font.type.i_b=粗斜体
+
+colordialog.title=选择颜色
+
+replacedialog.replace.str1=替换 :
+replacedialog.replace.with=替换为 :
+replacedialog.replace.all=全部替换
+replace.title=替换
+
+
+
+
